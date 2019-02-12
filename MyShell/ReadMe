@@ -1,1 +1,29 @@
+shell-like program displays the command line prompt “myshell>” and waits for the user's
+command. It reads the user’s next command, parses it into separate tokens that are used to fill the
+argument vector for the command to be executed, and executes it.
 
+
+Example execution:
+./myshell
+myshell>dir
+/home/std/Desktop
+myshell>cd /home/std
+myshell>dir
+/home/std
+myshell>findloc ls
+/usr/bin/ls
+myshell>history
+[1] dir
+[2] cd /home/std
+[3] dir
+[4] findloc ls
+[5] history
+myshell>ls -l-rw------- 1 std std 152144 Jun 20 2005 alice-in-wonderland.txt
+-rw------- 1 std std 13421 Jun 20 2005 calaveras-county.txt
+-rw------- 1 std std 635 Jun 20 2005 french.txt
+-rw------- 1 std std 172541 Jun 20 2005 looking-glass.txt
+drwx------ 14 std std 476 May 25 2007 shakespeare
+myshell>gedit &
+myshell>ls -l | wc -l
+5
+myshell>bye
