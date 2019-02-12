@@ -1,0 +1,14 @@
+Example execution:
+./queue 10
+Generated 10 random list tasks...
+task 0-insert 3: 3 is inserted
+task 1-insert 17: 17 is inserted
+task 2-delete 6: 6 cannot be deleted
+task 3-insert 9: 9 is inserted
+task 4-insert 13: 13 is inserted
+task 5-search 17: 17 is found
+task 6-insert 3: 3 cannot be insertedtask 7-insert 0: 0 is inserted
+task 8-delete 9: 9 is deleted
+task 9-search 5: 5 is not found
+Final list:
+0 3 13 17
