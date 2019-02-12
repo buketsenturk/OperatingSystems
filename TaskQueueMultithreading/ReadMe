@@ -10,5 +10,5 @@ Thread 1: task 7: 3 cannot be inserted
 Thread 1: task 8: 0 is inserted
 Thread 1: task 9: 12 is inserted
 Thread 0: task 5: 2 cannot be deleted
-main: Final list:
+main: Final list: 
 0 3 9 12 13 17
