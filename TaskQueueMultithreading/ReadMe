@@ -1,0 +1,14 @@
+Example execution:
+./queue 2 10     ==>  ./queue #OfThreads #ofTasks
+Thread 1: task 0: 3 is inserted
+Thread 0: task 1: 17 is inserted
+Thread 0: task 3: 6 cannot be deleted
+Thread 0: task 4: 9 is inserted
+Thread 1: task 2: 13 is inserted
+Thread 1: task 6: 9 cannot be inserted
+Thread 1: task 7: 3 cannot be inserted
+Thread 1: task 8: 0 is inserted
+Thread 1: task 9: 12 is inserted
+Thread 0: task 5: 2 cannot be deleted
+main: Final list:
+0 3 9 12 13 17
